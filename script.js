@@ -15,3 +15,7 @@ class Person {
 
 const p1 = new Person("Petras", 19);
 console.log(p1.compareAge());
+
+const masyvas1 = [1, 5, "a", "g", "z", 6];
+let tikSkaiciai = masyvas1.filter((element) => typeof element === "number");
+console.log(tikSkaiciai);
